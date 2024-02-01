@@ -5,6 +5,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - name: calling remote action
-            uses: SaverioCode/my-first-public-action@v1
+            uses: SaverioCode/test1@v1
             with:
                 who-to-greet: 'nessuno'
