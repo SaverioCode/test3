@@ -1,0 +1,10 @@
+name: line-counter
+on:	push
+jobs: 
+    line-counter:
+        runs-on: ubuntu-latest
+        steps:
+          - name: calling remote action
+            uses: SaverioCode/my-first-public-action@v1
+            with:
+                who-to-greet: 'nessuno'
